@@ -1,3 +1,3 @@
-import main from './main';
+import main from './app';
 
-main();
+main(process.argv);
