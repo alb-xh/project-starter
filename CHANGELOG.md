@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/alb-xh/project-starter/compare/v1.0.0...v1.1.0) (2022-06-13)
+
+
+### Features
+
+* added commands ([76689ad](https://github.com/alb-xh/project-starter/commit/76689ada6445b0338e4551b5dee9eaa37e21e2f1))
+
 ## 1.0.0 (2022-06-13)
 
 
