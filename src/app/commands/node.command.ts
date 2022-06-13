@@ -1,6 +1,6 @@
-import type { Command } from 'commander';
+import { Command } from 'commander';
 
-export default (program: Command) => program
+export default () => new Command()
   .command('node <project-name>')
   .description('Creates a node project')
   .option('--typescript', 'typescript enable', true)
