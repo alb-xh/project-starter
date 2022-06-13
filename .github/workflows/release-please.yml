@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - master
+name: release-please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - id: release
+        name: release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: test-release-please
+      - id: merge
+        name: merge
+        if: ${{ steps.release.outputs.pr }}
+        uses: "pascalgn/automerge-action@v0.15.3"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST: ${{ fromJson(steps.release.outputs.pr).number }}
+          MERGE_LABELS: ""
+          UPDATE_LABELS: ""
