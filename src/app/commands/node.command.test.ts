@@ -1,5 +1,3 @@
-import { Command } from 'commander';
-
 import {
   mockDescription,
   mockOption,
@@ -11,8 +9,7 @@ import nodeCommand from './node.command';
 
 describe('node.command.ts', () => {
   test('it should have been setup properly', () => {
-    const program = new Command();
-    nodeCommand(program);
+    nodeCommand();
 
     expect(mockCommand).toHaveBeenCalledTimes(1);
     expect(mockDescription).toHaveBeenCalledTimes(1);

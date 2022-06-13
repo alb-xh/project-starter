@@ -1,9 +1,7 @@
-import initProgram from './program.app';
-import * as commandsHash from './commands';
+import program from './program.app';
+import commands from './commands';
 
 export default (args: string[]) => {
-  const commands = Object.values(commandsHash);
-  const program = initProgram(commands);
-
-  program.parse(args);
+  const app = program(commands);
+  app.parse(args);
 };

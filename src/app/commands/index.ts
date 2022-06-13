@@ -1,1 +1,5 @@
-export { default as node } from './node.command';
+import nodeCommand from './node.command';
+
+export default [
+  nodeCommand(),
+];
