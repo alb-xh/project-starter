@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/alb-xh/project-starter/compare/v1.1.0...v1.2.0) (2022-06-13)
+
+
+### Features
+
+* added readme ([#4](https://github.com/alb-xh/project-starter/issues/4)) ([93ab0fe](https://github.com/alb-xh/project-starter/commit/93ab0fe3e589b134b6c4fc3fe90881c897e52b49))
+
 ## [1.1.0](https://github.com/alb-xh/project-starter/compare/v1.0.0...v1.1.0) (2022-06-13)
 
 
