@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/alb-xh/project-starter/compare/v1.2.0...v1.2.1) (2022-06-13)
+
+
+### Bug Fixes
+
+* used addCommand instead of functions ([93c8b99](https://github.com/alb-xh/project-starter/commit/93c8b9943ad5098c0a2ddca25c69cc6ec9bd7317))
+
 ## [1.2.0](https://github.com/alb-xh/project-starter/compare/v1.1.0...v1.2.0) (2022-06-13)
 
 
