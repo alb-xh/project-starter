@@ -5,8 +5,9 @@ export const mockOption = jest.fn().mockReturnThis();
 export const mockAction = jest.fn().mockReturnThis();
 export const mockParse = jest.fn().mockReturnThis();
 export const mockAddCommand = jest.fn().mockReturnThis();
+export const mockAddOption = jest.fn().mockReturnThis();
 
-export const Command = jest.fn(() => ({
+export const MockCommand = jest.fn(() => ({
   name: mockName,
   description: mockDescription,
   command: mockCommand,
@@ -14,8 +15,9 @@ export const Command = jest.fn(() => ({
   action: mockAction,
   parse: mockParse,
   addCommand: mockAddCommand,
+  addOption: mockAddOption,
 }));
+export const Command = MockCommand;
 
-export default {
-  Command,
-};
+export const MockOption = jest.fn();
+export const Option = MockOption;
